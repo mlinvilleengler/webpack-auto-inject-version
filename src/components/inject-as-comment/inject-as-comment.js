@@ -129,7 +129,7 @@ export default class InjectAsComment {
    * @param asset
    */
   injectIntoJs(asset) {
-    let modAsset = this.parseTags(`// [${config.SHORT}] `, ' ');
+    let modAsset = this.parseTags(`/* [${config.SHORT}] `, ' */');
     modAsset += `${endOfLine} ${asset.source()} `;
     asset.source = () => modAsset;
   }

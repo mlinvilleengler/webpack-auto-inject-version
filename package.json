@@ -1,6 +1,6 @@
 {
-  "name": "webpack-auto-inject-version",
-  "version": "1.1.0",
+  "name": "webpack-auto-inject-version-wrapped-comment",
+  "version": "2.0.0",
   "repository": "radswiat/webpack-auto-inject-version",
   "description": "Webpack plugin for auto inject version from package.json",
   "main": "dist/WebpackAutoInjectVersion.js",
@@ -9,7 +9,7 @@
     "start:watch": "babel-node tools/compile-watch.js",
     "eslint": "eslint ./src/**"
   },
-  "author": "Radoslaw Swiat",
+  "author": "Radoslaw Swiat/Forked by Matt Linville-Engler",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.10.1",
